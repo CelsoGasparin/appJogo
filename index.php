@@ -292,6 +292,7 @@ session_destroy();
             var verBotao = document.querySelectorAll('.verMbutton');
             if(localStorage.getItem('verMlegal')==1){
                 document.querySelector('.verM').style.color = '#fcbc41';
+                document.querySelectorAll('#verMlegal')[1].checked = true;
                 for(let index = 0; index < ids.length; index++){
                     verBotao[index].style.backgroundColor = '#fcbc41';
                     verBotao[index].innerHTML = '<a href="card.php?cardsID='+ ids[index].innerText +'" style="color:black;font-size:20px;" class="textoB">Ver Mais</a>';
@@ -299,6 +300,7 @@ session_destroy();
                 }
             }else{
                 document.querySelector('.verM').style.color = 'rgb(55, 255, 0)';
+                document.querySelectorAll('#verMlegal')[0].checked = true;
                 for(let index = 0; index < ids.length; index++){
                     verBotao[index].style.backgroundColor = 'rgb(55, 255, 0)';
                     verBotao[index].innerHTML = '<p style="color:black;" class="textoB">Ver Mais</p>';
