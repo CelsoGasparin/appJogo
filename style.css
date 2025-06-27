@@ -1,0 +1,30 @@
+:root, label, .texto,h3{
+    color: rgb(220, 249, 255);
+}
+.verM{
+    color: rgb(55, 255, 0);
+}
+.DELETE{
+    color: rgb(215, 0, 0);
+}
+.verMbutton{
+    background-color: rgb(55, 255, 0);
+}
+.DELETEbutton{
+    background-color: rgb(215, 0, 0);
+}
+.card{
+    background-color: rgb(4, 0, 26);
+    /* background-color: black; */
+}
+table, tr,td,th{
+    border: 1px rgb(220, 249, 255) solid;
+    
+}
+.textoB{
+    color: black;
+    text-shadow: 1px 1px 2.5px black;
+    
+}
+
+
